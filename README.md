@@ -36,7 +36,7 @@ where $\alpha$ is the location parameter and $\beta$ is the scale parameter.
 For a set of independent Cauchy random variables $\{x_k\}_{k=1}^N$, the likelihood function is given by
 
 $$
-\mathcal{L}_x(x|\alpha, \beta) = \prod_{k=1}^N \frac{\beta}{\pi(\beta^2 + (x_k - \alpha)^2)}.
+\mathcal{L}_x(x|\alpha, \beta) = \prod_{k=1}^N \frac{\beta}{\pi(\beta^2 + (x_k - \alpha)^2)}
 $$
 
 The log-likelihood function is then 
