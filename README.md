@@ -33,16 +33,16 @@ where $\alpha$ is the location parameter and $\beta$ is the scale parameter.
 
 #### Maximum Likelihood Estimation
 
-For a set of independent Cauchy random variables $\{x_k\}_{k=1}^N$, the likelihood function is given by
+For a set of independent Cauchy random variables { $x_k$ }, the likelihood function is given by
 
 $$
-L(x|\alpha, \beta) = \prod_{k=1}^N \frac{\beta}{\pi(\beta^2 + (x_k - \alpha)^2)}
+L(\alpha, \beta) = \prod_{k=1}^N \frac{\beta}{\pi(\beta^2 + (x_k - \alpha)^2)}
 $$
 
 The log-likelihood function is then 
 
 $$
-l = \ln L(x|\alpha, \beta) = N\ln{\frac{\beta}{\pi}} - \sum_{k=1}^N\ln{(\beta^2 + (x_k - \alpha)^2)}.
+l = \ln L(\alpha, \beta) = N\ln{\frac{\beta}{\pi}} - \sum_{k=1}^N\ln{(\beta^2 + (x_k - \alpha)^2)}.
 $$
 
 The first derivative with respect to $\alpha$ is
